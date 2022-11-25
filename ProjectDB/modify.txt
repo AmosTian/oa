@@ -1,0 +1,23 @@
+Administrator	department
+		Auditor
+		Employee
+		在后者属性中加入“添加该XXX的管理员id”作为外键
+		
+		drug
+		在后者属性中加入“修改该药品信息的管理员id”和“修改时间”作为外键
+
+		删除Administrator拉出来的四条实线
+
+img		删除实体
+		
+INVOICEform	添加
+			“就诊日期”
+			“挂号单（相对）路径”
+			“转诊单（相对）路径”
+			“医疗门诊收费票据（相对）路径”
+			“处方笺（相对）路径”
+
+REform		添加
+			“state”报销记录状态【待审核、审核通过、审核未通过、撤销】
+			“instructions”就诊说明/备注
+			报销单提交时间
